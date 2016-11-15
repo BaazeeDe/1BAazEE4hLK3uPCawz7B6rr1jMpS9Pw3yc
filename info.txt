@@ -1,0 +1,17 @@
+    ____  ___    ___ _____   ____________   ____  ______
+   / __ )/   |  /   /__  /  / ____/ ____/  / __ \/ ____/
+  / __  / /| | / /| | / /  / __/ / __/    / / / / __/   
+ / /_/ / ___ |/ ___ |/ /__/ /___/ /___ _ / /_/ / /___   
+/_____/_/  |_/_/  |_/____/_____/_____/(_)_____/_____/  
+
+
+Mit dieser Anleitung könnt ihr einen Miner mit Startparametern so packen, dass ihr nur eine exe-Datei habt.
+
+- Werte in files\start.bat anpassen
+- start.bat mit "Bat To Exe Converter" in start.exe verwandeln
+- Inhalt vom Ordner files mit 7zip zippen (alle Einstellungen auf Standart lassen)
+- zip-Datei im Ordner speichern, wo die make.bat liegt
+- make.bat: copy /b 7zSD.sfx + config.txt + dateiname-vom-zip-archiv.7z dateiname-der-fertigen-exe.exe
+- make.bat ausführen
+
+(c) baazee.de CC-BY-SA 3.0 DE
